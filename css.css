@@ -1,0 +1,196 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.linefrist{    
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+margin-top: 5px;
+    width: 100px;
+    height: 5px;
+    background-color: rgba(175, 175, 175, 0.692);
+    border-radius: 50px;
+}
+
+.page{
+
+    margin: 0 auto  ;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 400px;
+    height: 650px;
+
+}
+
+.page .stop .menu img , .page .stop .setting img , .page .active .txtactive .iconsearch img{
+    height: 25px;
+    width: 25px;
+}
+
+
+.page .stop .setting{
+    
+    display: flex;
+    gap: 15px;
+}
+.page .stop .text{
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-grow: 1;
+    grid-row: 1;
+    justify-content: center ;
+    padding-left: 35px;
+    }
+
+
+.page .stop{
+    background-color: rgb(179, 163, 218);
+    padding: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    
+           
+}
+
+.page .active{
+
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    margin-top: -10px;
+    border-radius: 15px;
+    
+}
+
+.page .active .txtactive{
+    align-items: center ;
+    display: flex;
+
+    margin: 10px 13px;
+}   
+
+.no{
+    flex-grow: 1;
+}
+
+.page .active .txtactive .activetxt{
+
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+}
+
+.page .active .picture{
+    margin: 0px 13px;
+    display: flex;
+    gap: 12px;
+}
+
+.page .active .picture img{
+    
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.page .active .txtdate{
+
+    margin: 10px 13px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+
+}
+
+.page .active .txtwork{
+    margin:  10px 13px;
+    padding: 13px 30px;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    gap: 70px;
+}
+
+.txt{
+    display: flex;
+    font-size: 13px;
+    color: rgb(46, 46, 46);
+}
+.time{
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.page .active .txttime{
+
+    margin: 10px 13px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+}
+
+span{
+    font-size:8px;
+}
+
+
+.page .active .activity .section {
+    margin: 10px 13px;
+    background-color: rgb(240, 240, 240);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    border-left: 10px solid rgb(125, 3, 224);
+    
+
+}
+
+
+.page .active .activity .section .timeandloc .bettime{
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
+
+.page .active .activity .section .timeandloc .loc img{
+
+    height: 15px;
+    width: 15px;
+}
+
+.page .active .activity .section .timeandloc .loc{
+
+gap: 4px;
+}
+
+
+.page .active .activity .section  .more img{
+
+    height: 20px;
+    width: 20px;
+}
+
+.page .active .activity .section .timeandloc .loc{
+    display: flex;
+    font-size: 13px;
+    margin-top: 5px;
+    color: rgb(153, 153, 153);
+
+}
+
+.mid{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid rgb(202, 202, 202);}
